@@ -7,14 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
     <fragment
-        android:name=".Fragment1"
+        android:name="com.bankmtk.workwithfragments.Fragment1"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:id="@+id/fragment1"/>
     <!--android:name and class in fragments it's equal methods-->
     <fragment
-        class=".Fragment2"
+        class="com.bankmtk.workwithfragments.Fragment2"
         android:id="@+id/fragment2"
         android:layout_weight="1"
         android:layout_width="match_parent"
